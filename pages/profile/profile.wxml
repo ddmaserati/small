@@ -1,2 +1,6 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class='container'>
+<view class='profile_info'>个人信息模块</view>
+
+
+</view>
