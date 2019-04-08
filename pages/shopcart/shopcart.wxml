@@ -1,2 +1,6 @@
 <!--pages/shopcart/shopcart.wxml-->
-<text>pages/shopcart/shopcart.wxml</text>
+<import src="/template/cart/template-cart.wxml"/>
+
+<view class='container'>
+ <template is="{{list.length > 0 ? 'goods-list' : 'no-goods'}}" data="{{...list}}"></template>
+</view>
