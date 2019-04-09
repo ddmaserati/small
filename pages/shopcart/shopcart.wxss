@@ -1,1 +1,7 @@
 /* pages/shopcart/shopcart.wxss */
+@import "../templatecart/templatecart.wxss";
+
+.container
+{
+  width: 100%；
+}

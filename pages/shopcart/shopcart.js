@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list:[]
   },
 
   /**
@@ -62,5 +62,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  }
+  ,
+
+/**
+ * 首页
+ */
+  toIndexPage:function()
+  {
+    wx.switchTab({
+      url: '../index/index'
+    })
   }
 })

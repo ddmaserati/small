@@ -1,6 +1,39 @@
 <!--pages/profile/profile.wxml-->
 <view class='container'>
-<view class='profile_info'>个人信息模块</view>
+  <view class='profile_info'>
+   <button wx:if="{{hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取用户信息 </button>
+    <image class='userinfo-avatar' mode="aspectFit" src='{{userInfo.avatarUrl}}'></image>
+    <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+  </view>
 
+  <text class='order_tips'>我的订单</text>
+  <view class='view_line'></view>
 
+  <view class='order'>
+    <view class='order_item'>
+      全部
+      <image style="width: 40px; height: 40px;" src="{{src}}"></image>
+    </view>
+    <view class='order_item'>待付款
+      <image style="width: 40px; height: 40px;" src="{{src}}"></image>
+    </view>
+    <view class='order_item'>待收货
+      <image style="width: 40px; height: 40px;" src="{{src}}"></image>
+    </view>
+    <view class='order_item'>待评价
+      <image style="width: 40px; height: 40px;" src="{{src}}"></image>
+    </view>
+  </view>
+  <view class='view_line'></view>
+  <text class='item'>我的收藏</text>
+  <view class='view_line'></view>
+  <text class='item'>我的优惠券</text>
+  <view class='view_line'></view>
+  <text class='item' bindtap='address'>收货地址管理</text>
+  <view class='view_line'></view>
+  <text class='item'>联系客服</text>
+  <view class='view_line'></view>
+  <text class='item'>常见问题</text>
+  <view class='view_line'></view>
+  <text class='item' bindtap='aboutUs'>关于我们</text>
 </view>

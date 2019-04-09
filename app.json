@@ -10,8 +10,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "small",
-    "navigationBarTextStyle": "black",
-    "borderStyle": "black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#333333",
@@ -26,27 +25,28 @@
       {
         "pagePath": "pages/classic/classic",
         "text": "分类",
-    "iconPath": "image/home/home_normal.png",
-    "selectedIconPath": "image/home/home_select.png"
+        "iconPath": "image/home/home_normal.png",
+        "selectedIconPath": "image/home/home_select.png"
       },
       {
         "pagePath": "pages/shopcart/shopcart",
         "text": "购物车",
-      "iconPath": "image/home/home_normal.png",
-      "selectedIconPath": "image/home/home_select.png"
+        "iconPath": "image/home/home_normal.png",
+        "selectedIconPath": "image/home/home_select.png"
       },
       {
         "pagePath": "pages/profile/profile",
         "text": "个人",
-      "iconPath": "image/home/home_normal.png",
-    "selectedIconPath": "image/home/home_select.png"
+        "iconPath": "image/home/home_normal.png",
+        "selectedIconPath": "image/home/home_select.png"
       }
     ]
   },
   "networkTimeout": {
-    "request": 5000,
+    "request": 20000,
     "connectSocket": 10000,
     "uploadFile": 10000,
     "downloadFile": 10000
   }
+  
 }
