@@ -1,22 +1,33 @@
 /**index.wxss  **/
-/**  git 分支测试 **/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.slide-image{
+  width: 100%;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.scroll_view
+{
+   width: 100%;
+   overflow:hidden;
+   white-space:nowrap;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.scroll_item{
+  width: 30%;
+  height: 150rpx;
+  background-color: #999;
+  margin: 10px;
+  display: inline-block
 }
 
-.usermotto {
-  margin-top: 200px;
+.goods_list
+{
+  width: 50%;
+  background-color: #ff0084;
+  display: inline-block;
+}
+
+.goods_item
+{
+  background-color: #999;
+  margin: 10rpx;
+  height: 50px;
 }

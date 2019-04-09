@@ -29,7 +29,7 @@
   <view class='view_line'></view>
   <text class='item'>我的优惠券</text>
   <view class='view_line'></view>
-  <text class='item'>收货地址管理</text>
+  <text class='item' bindtap='address'>收货地址管理</text>
   <view class='view_line'></view>
   <text class='item'>联系客服</text>
   <view class='view_line'></view>
