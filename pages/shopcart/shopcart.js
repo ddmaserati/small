@@ -63,4 +63,15 @@ Page({
   onShareAppMessage: function () {
 
   }
+  ,
+
+/**
+ * 首页
+ */
+  toIndexPage:function()
+  {
+    wx.switchTab({
+      url: '../index/index'
+    })
+  }
 })

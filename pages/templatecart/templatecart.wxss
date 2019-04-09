@@ -1,0 +1,21 @@
+.title-box {
+  width: 100%;
+  padding-top: 330rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+  background: url(https://cdn.it120.cc/images/weappshop/icon-cart.png) no-repeat center 205rpx;
+  background-size: 100rpx auto;
+  margin-bottom: 50rpx;
+}
+
+.to-index-btn {
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  color: #fff;
+  background: #e64340;
+  border-radius: 6px;
+  line-height: 70rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
