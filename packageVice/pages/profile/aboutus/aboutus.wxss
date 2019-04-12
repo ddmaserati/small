@@ -1,0 +1,7 @@
+/* packageVice/pages/profile/aboutus/aboutus.wxss */
+
+view {
+  font-size: 11pt;
+  color: #353535;
+  padding: 8rpx;
+}
