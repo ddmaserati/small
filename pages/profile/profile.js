@@ -87,15 +87,38 @@ Page({
   },
 
   aboutUs: function() {
+    wx.navigateTo({
+      url: '/packageVice/pages/profile/aboutus/aboutus'
+    })
+  },
+
+  problem:function()
+  {
     wx.showToast({
-      title: '点击了关于我们',
-      icon: '',
-      image: '',
-      duration: 2000,
-      mask: true,
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
+      title: '暂无，待定',
+    })
+  },
+
+  coupon:function()
+  {
+    wx.navigateTo({
+      url: '/packageVice/pages/profile/coupon/coupon'
+    })
+  },
+ 
+  getAddress:function()
+  {
+    wx.chooseAddress({
+      success(res) {
+        // console.log(res.userName)
+        // console.log(res.postalCode)
+        // console.log(res.provinceName)
+        // console.log(res.cityName)
+        // console.log(res.countyName)
+        // console.log(res.detailInfo)
+        // console.log(res.nationalCode)
+        // console.log(res.telNumber)
+      }
     })
   },
 

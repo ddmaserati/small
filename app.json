@@ -5,6 +5,16 @@
     "pages/shopcart/shopcart",
     "pages/classic/classic",
     "pages/profile/profile"
+   
+  ],
+  "subpackages": [
+    {
+      "root": "packageVice",
+      "pages": [
+        "pages/profile/aboutus/aboutus",
+        "pages/profile/coupon/coupon"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -48,5 +58,4 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   }
-  
 }
